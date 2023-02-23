@@ -271,7 +271,7 @@ function keyPressed() {
     if (mLlenadosInputField.value() != '') {
       mLlenadosInput = int(parseFloat(mLlenadosInputField.value().replace(',','.')))
       if (isNumber(mLlenadosInput)) {
-        mLlenados = constrain(mLlenadosInput, 1, 99);
+        mLlenados = constrain(mLlenadosInput, 1, 100);
         promediosPrecalArray = calcularPromedios(nFigus, mLlenados, kPromedios);
       }
       mLlenadosInputField.value('');
