@@ -112,7 +112,7 @@ function setup() {
   }
   
   // Inicializar slider
-  sliderxL = min(2/3*width, width-275);
+  sliderxL = min(2/3*width, width-275);    promediosArray
   sliderxR = width - borde + xsize/2 - 10;
   sliderxC = sliderxL + (sliderxR-sliderxL)/2;
   slidery  = promediosInputField.size().height - 10;
@@ -145,7 +145,7 @@ function draw() {
   cursor(ARROW);
   
   // Dibujar campos para inputs
-  mLlenadosInputField.attribute('placeholder', concat('Álbumes llenados por promedio (', concat(String(mLlenados),')')));
+  mLlenadosInputField.attribute('placeholder', concat('Álbumes llenados por promedio(', concat(String(mLlenados),')')));
   if (mLlenados > 1) {
     promediosInputField.attribute('placeholder', 'Agregá un promedio acá');
   } else {
