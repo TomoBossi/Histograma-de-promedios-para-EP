@@ -145,7 +145,7 @@ function draw() {
   cursor(ARROW);
   
   // Dibujar campos para inputs
-  mLlenadosInputField.attribute('placeholder', concat('Álbumes llenados por promedio(', concat(String(mLlenados),')')));
+  mLlenadosInputField.attribute('placeholder', concat('Álbumes llenados por promedio (', concat(String(mLlenados),')')));
   if (mLlenados > 1) {
     promediosInputField.attribute('placeholder', 'Agregá un promedio acá');
   } else {
