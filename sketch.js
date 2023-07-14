@@ -2,7 +2,7 @@ p5.disableFriendlyErrors = true;
 // Variables globales
 let usarPromedios = true, // Usar promedios (si false, por defecto usa llenados individuales en vez de promedios)
     nFigus = 6, // Figus por álbum
-    mLlenados = 10, // Valor inicial para la cantidad de álbumes llenados por promedio calculado
+    mLlenados = 3, // Valor inicial para la cantidad de álbumes llenados por promedio calculado
     kPromedios = 1000, // Total de promedios calculados y a ser utilizados en simultaneo (como máximo)
     
     // Promedios / Lógica interna
